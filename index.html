@@ -1,83 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sovaryn Studios</title>
-<meta name="description" content="Sovaryn Studios is an independent studio building games and tools.">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1018">
+  <meta name="description" content="Sovaryn Studios is an independent studio building games and tools in the open.">
+  <title>Sovaryn Studios — Games and tools, built in the open</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-<div class="wrap">
-<a class="brand" href="#top">Sovaryn<span>.</span></a>
-<nav>
-<a href="#about">About</a>
-<a href="#projects">Projects</a>
-<a href="#tools">Tools</a>
-<a href="#news">News</a>
-<a href="#downloads">Downloads</a>
-<a href="#docs">Docs</a>
-<a href="#community">Community</a>
-<a href="#contact">Contact</a>
-</nav>
-</div>
-</header>
-<main id="top">
-<div class="wrap">
-<div class="hero">
-<h1>Independent games and tools, built in the open.</h1>
-<p>Sovaryn Studios is getting back to work. We share real progress and release only what is ready.</p>
-<a class="btn" href="#projects">See what we’re building</a>
-</div>
-<section id="about">
-<h2>About</h2>
-<p>We are an independent studio focused on games and software. Our approach is simple: build things that run, document them, and be honest about their state.</p>
-</section>
-<section id="projects">
-<h2>Projects</h2>
-<div class="grid">
-<div class="card">
-<span class="tag">In planning</span>
-<h3>Our first original game</h3>
-<p class="muted">A new game built from scratch, using only assets whose licenses we have verified. Early planning, no release date.</p>
-</div>
-</div>
-</section>
-<section id="tools">
-<h2>Products and tools</h2>
-<p class="muted">Nothing to show yet. Tools will be listed here when they are ready to use.</p>
-</section>
-<section id="news">
-<h2>News and updates</h2>
-<div class="card">
-<span class="tag">Update</span>
-<h3>We’re back to work</h3>
-<p class="muted">Sovaryn Studios has resumed development. Regular development logs are coming.</p>
-</div>
-</section>
-<section id="downloads">
-<h2>Downloads and releases</h2>
-<p class="muted">No public releases yet. Versions will appear here with changelogs as soon as they exist.</p>
-</section>
-<section id="docs">
-<h2>Documentation</h2>
-<p class="muted">Documentation will be published alongside our first public project.</p>
-</section>
-<section id="community">
-<h2>Community</h2>
-<p>Our community lives on Discord, where we post updates, development logs, and polls.</p>
-<p><a class="btn" href="https://discord.gg/DnyFHtGUZ" rel="noopener">Join our Discord</a></p>
-</section>
-<section id="contact">
-<h2>Contact</h2>
-<p>Email: <a href="mailto:iagmail191@gmail.com">iagmail191@gmail.com</a></p>
-<p class="muted">You can also reach us through our Discord community.</p>
-</section>
-</div>
-</main>
-<footer>
-<div class="wrap">© 2026 Sovaryn Studios</div>
-</footer>
+  <header class="site-header">
+    <div class="wrap nav-wrap">
+      <a class="brand" href="#top" aria-label="Sovaryn Studios home"><span class="brand-mark">S</span><span>Sovaryn</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#updates">Updates</a>
+        <a href="#community">Community</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="eyebrow"><span class="pulse"></span> Independent studio · back to work</div>
+      <h1 id="hero-title">Small team.<br><em>Real things.</em></h1>
+      <p class="hero-copy">Sovaryn Studios builds games and tools with care, documents the process, and shares progress when there is something real to show.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#projects">Explore the work <span aria-hidden="true">↗</span></a>
+        <a class="button button-quiet" href="#community">Join the community</a>
+      </div>
+      <div class="hero-note"><span>01</span> A studio returning with a clear standard: build it, test it, tell the truth about it.</div>
+    </section>
+
+    <section class="section wrap" id="about" aria-labelledby="about-title">
+      <div class="section-label">01 / About</div>
+      <div class="split">
+        <h2 id="about-title">Made for the long run.</h2>
+        <div>
+          <p class="lead">We are an independent studio focused on games and useful software.</p>
+          <p class="muted">Our work is early, but our standard is not. We prefer a small number of meaningful projects, honest development logs, verified assets, and releases that are ready to be used.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <div class="section-label">02 / Work in progress</div>
+        <div class="section-heading"><h2 id="projects-title">What we are building</h2><span class="section-status">No public releases yet</span></div>
+        <div class="project-card">
+          <div class="project-index">01</div>
+          <div class="project-body">
+            <div class="project-top"><span class="status status-planning">In planning</span><span class="project-type">Original game</span></div>
+            <h3>Our first original game</h3>
+            <p>A new game being planned and built from scratch. Development is at an early stage; there is no release date to announce.</p>
+            <span class="project-foot">Public details will follow when they are ready <span aria-hidden="true">→</span></span>
+          </div>
+        </div>
+        <div class="empty-row"><span>Tools &amp; products</span><span>Nothing public yet — this space will fill with working software, not placeholders.</span></div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="updates" aria-labelledby="updates-title">
+      <div class="section-label">03 / Latest signal</div>
+      <div class="update-grid">
+        <div><h2 id="updates-title">We are back to work.</h2><p class="muted">The studio is restarting with a focus on consistent progress, clear documentation, and a stronger public presence.</p></div>
+        <div class="update-card"><span class="status status-update">Studio update</span><time datetime="2026-11-25">November 2026</time><h3>A new operating rhythm begins</h3><p>We are setting up the foundations before making promises: projects, tools, documentation, and a community that can follow along.</p></div>
+      </div>
+    </section>
+
+    <section class="section section-accent" id="community" aria-labelledby="community-title">
+      <div class="wrap community-row">
+        <div><div class="section-label">04 / Community</div><h2 id="community-title">Follow the build.</h2><p>Development logs, updates, polls, and releases will happen in the Sovaryn community.</p></div>
+        <a class="button button-dark" href="https://discord.gg/DnyFHtGUZ" rel="noopener noreferrer">Join Discord <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section wrap contact" id="contact" aria-labelledby="contact-title">
+      <div><div class="section-label">05 / Contact</div><h2 id="contact-title">Say hello.</h2></div>
+      <div><p class="lead">For studio questions, collaboration, or community support.</p><a class="email" href="mailto:iagmail191@gmail.com">iagmail191@gmail.com <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="wrap footer-row"><span>© 2026 Sovaryn Studios</span><span>Games · Tools · Independent work</span></div></footer>
 </body>
 </html>
